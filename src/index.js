@@ -1,1 +1,3 @@
-console.log('Webpack is go for launch');
+import {pageLoad} from './content.js'
+
+pageLoad();
