@@ -4,21 +4,34 @@
 
 body { 
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-header {
+#header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 p {
-    font-size: 3.0em;
+    font-size: 2.5em;
     margin: 0 0 40px 0;
     padding: 0;
 }
 
 #food {
     width: 700px;
+}
+
+#copy {
+    font-size: 2.0em;
+    text-align: center;
+    margin: 40px 250px;
+}
+
+#phone {
+    text-align: center; 
+    color: #5f99c7;
+    font-weight: bold;
 }
 
