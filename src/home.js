@@ -1,3 +1,6 @@
+import {menuPage} from './menu.js'
+import {clearContent} from './script.js'
+
 function homePage () {
 
 let content = document.getElementById('content');
@@ -9,17 +12,22 @@ let food = document.createElement('img');
 food.id = 'food';
 let copy = document.createElement('p');
 copy.id = 'copy';
-let phone = document.createElement('p');
-phone.id = 'phone';
+let order = document.createElement('div');
+order.id = 'order';
 
 food.src = "../images/gyro2.png";
 copy.textContent = "Handmade with fresh ingredients daily. Available for pickup and delivery, or stop in for a quick bite!";
-phone.textContent = '555-247-3855'; 
+order.textContent = 'Order Online'; 
+
+order.addEventListener('click', function() {
+    clearContent();
+    menuPage();
+});
 
 content.appendChild(subtitle);
 content.appendChild(food);
 content.appendChild(copy);
-content.appendChild(phone);
+content.appendChild(order);
 }
 
 export {homePage}

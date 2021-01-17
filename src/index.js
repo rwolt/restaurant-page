@@ -5,6 +5,7 @@ import {clearContent} from './script.js'
 
 let content = document.getElementById('content');
 let header = document.createElement('div');
+
 header.id = 'header';
 let logo = document.createElement('img')
 logo.id = 'logo';
@@ -47,6 +48,8 @@ navMenu.addEventListener('click', function() {
     clearContent();
     menuPage();
 });
+
+
 
 navContact.addEventListener('click', function() {
     clearContent();
