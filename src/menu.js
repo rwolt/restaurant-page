@@ -1,6 +1,6 @@
 function menuPage()  {
     let content = document.getElementById('content');
-    let items = [{name: 'Spanakopita', price: 9.99}, {name: 'Hummus', price: 8.99}, {name: 'Falafel', price: 10.99}, {name: 'Onion Rings', price: 8.49}, {name: 'Mozzarella Sticks', price: 10.49}, {name: 'Zucchini Sticks', price: 7.99}];
+    let items = [{name: 'Spanakopita', price: '$9.50'}, {name: 'Hummus', price: '$9.00'}, {name: 'Falafel', price: '$11.00'}, {name: 'Onion Rings', price: '$8.50'}, {name: 'Mozzarella Sticks', price: '$9.50'}, {name: 'Zucchini Sticks', price: '$8.50'}];
     let menu = document.createElement('div');
     let title = document.createElement('img');
     title.id = 'title';
@@ -20,6 +20,7 @@ function menuPage()  {
         for(let i = 0; i < spaceLength; i++){
             space += '.';
         }
+    
         line.textContent = `${item.name}${space}${item.price}`;
         entry.appendChild(image);
         entry.appendChild(line);
