@@ -4,34 +4,99 @@
 
 body { 
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Cousine';
+    background: linear-gradient(180deg, #fff, rgb(175, 220, 250));
+    height: 100vh;
+    color: #3a2f1b;
 }
 
 #header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0px;
 }
 
 p {
-    font-size: 2.5em;
-    margin: 0 0 40px 0;
+    font-size: 2.0em;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 #food {
     width: 700px;
+    margin-top: 20px;
 }
 
 #copy {
     font-size: 2.0em;
     text-align: center;
-    margin: 40px 250px;
+    margin: 20px 250px;
 }
 
 #phone {
     text-align: center; 
     color: #5f99c7;
     font-weight: bold;
+    font-size: 3.25em;
 }
+
+#menu {
+    font-family: 'Cousine';
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+}
+
+.preview {
+    width: 150px;
+    margin: 20px;
+}
+
+#title {
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#subtitle {
+    font-size: 4.0em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #5f99c7;
+}   
+
+.nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    background:  #aa8a50;
+    color: white;
+}
+
+.nav-link {
+    padding: 10px 50px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-shadow: 1px 1px 3px #daceb9c4;
+    cursor: pointer;
+}
+
 
