@@ -126,4 +126,150 @@ p {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+    }
+    
+    
+    .preview {
+        width: 50px;
+        margin: 10px;
+    }
+    
+    .entry p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    
+    
+    #logo {
+        width: 80%;
+    }
+    
+    .nav {
+        width: 100vw;
+        justify-content: center;
+    }
+    
+    .nav-link {
+        width: 100px;
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+    
+    #title {
+        height: 70px;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #menu {
+        width: 300px;
+    }
+
+    #mapDiv {
+        margin-top: 40px;
+    }
+    
+    #subtitle {
+        font-size: 30px;
+    }
+    
+    #food {
+        width: 300px;
+    }
+    
+    #copy {
+        font-size: 18px;
+        width: 90%;
+    }
+    
+    #info {
+        padding: 0;
+        font-size: 14px;
+    }
+    
+    #order {
+        width: 250px;
+        font-size: 22px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 415px) {
+
+body {
+    width: 100vw;
+}
+
+
+.preview {
+    width: 50px;
+    margin: 10px;
+}
+
+p {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+
+#logo {
+    width: 80%;
+}
+
+.nav {
+    width: 100vw;
+    justify-content: center;
+}
+
+.nav-link {
+    width: 80px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+#title {
+    height: 50px;
+}
+
+#menu {
+    width: 360px;
+}
+
+#mapDiv {
+    display: none;
+}
+
+#subtitle {
+    font-size: 18px;
+}
+
+#food {
+    width: 300px;
+}
+
+#copy {
+    font-size: 18px;
+    width: 90%;
+}
+
+#info {
+    padding: 0;
+    font-size: 14x;
+}
+
+#order {
+    width: 250px;
+    font-size: 22px;
+}
+
+
+
+}
 
