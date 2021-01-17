@@ -1,3 +1,11 @@
+import spanakopita from '../images/spanakopita.jpeg'
+import hummus from '../images/hummus.jpg'
+import falafel from '../images/falafel.jpg'
+import onionRings from '../images/onionrings.jpg'
+import mozzSticks from '../images/mozzsticks.jpeg'
+import zucchiniSticks from '../images/zucchinisticks.jpg'
+
+
 function menuPage()  {
     let content = document.getElementById('content');
     let items = [{name: 'Spanakopita', price: '$9.50'}, {name: 'Hummus', price: '$9.00'}, {name: 'Falafel', price: '$11.00'}, {name: 'Onion Rings', price: '$8.50'}, {name: 'Mozzarella Sticks', price: '$9.50'}, {name: 'Zucchini Sticks', price: '$8.50'}];
@@ -27,12 +35,12 @@ function menuPage()  {
         menu.appendChild(entry);
     }
     let menuImages = menu.getElementsByTagName('img');
-    menuImages[0].src = '../images/spanakopita.jpeg';
-    menuImages[1].src = '../images/hummus.jpg';
-    menuImages[2].src = '../images/falafel.jpg';
-    menuImages[3].src = '../images/onionrings.jpg';
-    menuImages[4].src = '../images/mozzsticks.jpeg';
-    menuImages[5].src = '../images/zucchinisticks.jpg';
+    menuImages[0].src = spanakopita;
+    menuImages[1].src = hummus;
+    menuImages[2].src = falafel;
+    menuImages[3].src = onionRings;
+    menuImages[4].src = mozzSticks;
+    menuImages[5].src = zucchiniSticks;
 
 
     content.appendChild(menu);

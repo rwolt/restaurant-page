@@ -1,5 +1,6 @@
 import {menuPage} from './menu.js'
 import {clearContent} from './script.js'
+import foodImg from '../images/gyro2.png'
 
 function homePage () {
 
@@ -15,7 +16,7 @@ copy.id = 'copy';
 let order = document.createElement('div');
 order.id = 'order';
 
-food.src = "../images/gyro2.png";
+food.src = foodImg;
 copy.textContent = "Handmade with fresh ingredients daily. Available for pickup and delivery, or stop in for a quick bite!";
 order.textContent = 'Order Online'; 
 
