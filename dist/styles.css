@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Cousine';
     background: linear-gradient(180deg, #fff, rgb(175, 220, 250));
-    height: 100vh;
+    min-height: 100vh;
     color: #3a2f1b;
 }
 
@@ -41,20 +41,39 @@ p {
     margin: 20px 250px;
 }
 
-#phone {
-    text-align: center; 
-    color: #5f99c7;
-    font-weight: bold;
-    font-size: 3.25em;
-}
 
 #menu {
     font-family: 'Cousine';
-    margin: 20px auto;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+}
+
+#mapDiv {
+    padding: 0px;
+    margin: 0;
+    height: 365px;
+    border: 5px solid #5f99c7 ;
+    border-style: ridge;
+}
+
+#info {
+    font-size: 0.7em;
+    padding: 0px 50px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
 }
 
 .entry {
