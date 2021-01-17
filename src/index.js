@@ -2,6 +2,7 @@ import {homePage} from './home.js'
 import {menuPage} from './menu.js'
 import {contactPage} from './contact.js'
 import {clearContent} from './script.js'
+import logoImg from '../images/nirosgyros.png'
 
 let content = document.getElementById('content');
 let header = document.createElement('div');
@@ -11,7 +12,7 @@ let logo = document.createElement('img')
 logo.id = 'logo';
 
 
-logo.src = "../images/nirosgyros.png";
+logo.src = logoImg;
 
 
 let nav = document.createElement('div');

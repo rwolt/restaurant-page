@@ -1,6 +1,8 @@
+import contactImg from '../images/contact.png'
+
 function contactPage() {
     let title = document.createElement('img');
-    title.src = '../images/contact.png';
+    title.src = contactImg;
     title.id = 'title';
     let phone = document.createElement('p');
     let hours = document.createElement('p');

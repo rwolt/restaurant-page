@@ -2,6 +2,7 @@ import {menuPage} from './menu.js'
 import {clearContent} from './script.js'
 import foodImg from '../images/gyro2.png'
 
+
 function homePage () {
 
 let content = document.getElementById('content');

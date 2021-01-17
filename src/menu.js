@@ -4,6 +4,7 @@ import falafel from '../images/falafel.jpg'
 import onionRings from '../images/onionrings.jpg'
 import mozzSticks from '../images/mozzsticks.jpeg'
 import zucchiniSticks from '../images/zucchinisticks.jpg'
+import menuImg from '../images/menu.png'
 
 
 function menuPage()  {
@@ -12,7 +13,7 @@ function menuPage()  {
     let menu = document.createElement('div');
     let title = document.createElement('img');
     title.id = 'title';
-    title.src = '../images/menu.png';
+    title.src = menuImg;
     menu.id = 'menu';
     content.appendChild(title);
 
